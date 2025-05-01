@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #EDF1F4;
+            margin-top: 0;
+            margin-left: 0;
+        }
+
+        .logo img {
+            width: 100px;
+        }
+
+        .nav {
+            background-color: #FFFFFF;
+            width: 100vw;
+            height: 99px;
+        }
+
+        .list ul {
+            display: flex;
+            margin-left: 150px;
+            position: relative;
+            bottom: 60px;
+        }
+
+        .list ul li {
+            display: flex;
+            margin-left: 100px;
+        }
+
+        .btn1 {
+            padding: 10px;
+            margin-left: 85vw;
+            position: relative;
+            bottom: 100px;
+        }
+
+        .btn1 button {
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            white-space: nowrap;
+            position: relative;
+            top: -25px;
+        }
+
+        .main {
+            background-image: url(laptop-keyboard-stethoscope-on-blue-260nw-1907543080.webp);
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            width: 100%;
+        }
+
+        .hero h1 {
+            font-family: sans-serif;
+            position: relative;
+            top: 20vh;
+            text-align: center;
+        }
+
+        .hero p {
+            text-align: center;
+            margin-top: 20vh;
+        }
+
+        .btn-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .btn2,
+        .btn3 {
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            font-size: 16px;
+        }
+
+        .btn2 {
+            background-color: #007BFF;
+        }
+
+        .btn3 {
+            background-color: black;
+        }
+
+        /* 3 Boxes Section */
+        .info-boxes {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px auto;
+            max-width: 1200px;
+        }
+
+        .box {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .box h3 {
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .box span {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo"><img src="images.png" alt=""></div>
+        <div class="list">
+            <ul>
+                <li>Home</li>
+                <li>Docters</li>
+                <li>Services</li>
+                <li>Pages</li>
+                <li>Blogs</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+        <div class="btn1"><button><b>Book Appointment</b></button></div>
+    </div>
+
+    <div class="main">
+        <div class="hero">
+            <h1>We Provide <span style="color: #007BFF;">Medical</span> Services <br>That You Can <span style="color: #007BFF;">Trust!</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Est quas dolores libero vitae voluptate.
+                Accusamus optio dignissimos <br> at, minus facilis hic porro, velit quae possimus ad nihil eligendi
+                officiis nulla.</p>
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn2">Get Appointment</button>
+            <button class="btn3">Cancelled Appointment</button>
+        </div>
+    </div>
+
+    <!-- New 3 Boxes Section -->
+    <div class="info-boxes">
+        <div class="box">
+            <h3>Emergency Cases</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vivamus eleifend in massa convallis sodales.</p>
+            <span>LEARN MORE →</span>
+        </div>
+        <div class="box">
+            <h3>Doctors Timetable</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Vivamus eleifend in massa convallis sodales.</p>
+            <span>LEARN MORE →</span>
+        </div>
+        <div class="box">
+            <h3>Opening Hours</h3>
+            <p>Monday - Friday: 8.00 - 20.00<br>Saturday: 9.00 - 18.30<br>Sunday: 9.00 - 15.00</p>
+            <span>LEARN MORE →</span>
+        </div>
+    </div>
+</body>
+
+</html>
